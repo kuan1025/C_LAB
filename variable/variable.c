@@ -23,12 +23,12 @@ int main()
     // 5. float
     float f;
     f = 3.6f;
-    printf("long float =>%d\n ", sizeof(f));
+    printf("float float =>%d\n ", sizeof(f));
 
     // 6. double
     double d;
     d = 5.8;
-    printf("long double =>%d\n ", sizeof(d));
+    printf("double double =>%d\n ", sizeof(d));
 
 
     // 保留字
@@ -39,3 +39,19 @@ int main()
 
     return 0;
 }
+/*
+    
+    整數進制：
+        10 : 1~9
+        8 : 0開頭，如0123
+        16 : 0x開頭 如0x1e 
+    
+    浮點數進制：
+        10 :  如 0.0 ,0.12 
+        指數形式 123e3 表示 123*10三次方 同理 123e-3
+            不以f結尾預設為double
+    
+
+
+
+*/
